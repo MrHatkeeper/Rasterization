@@ -26,12 +26,11 @@ public class ScreenManager {
     }
 
 
-    private double rovnice(Coordinate fc, Coordinate sc){
-        double a = ((double)sc.getY() - fc.getY()) / (sc.getX() - fc.getX());
-        double result = (double)sc.getY() - a * fc.getX();
+    private double rovnice(Coordinate fc, Coordinate sc) {
+        double a = ((double) sc.getY() - fc.getY()) / (sc.getX() - fc.getX());
+        double result = (double) sc.getY() - a * fc.getX();
         return result;
     }
-
 
 
     public boolean isFilledIn(Coordinate coordinate) { // TODO: Implement this
@@ -42,7 +41,7 @@ public class ScreenManager {
 
         try {
 
-            double a = rovnice(body[0],body[1]);
+            double a = rovnice(body[0], body[1]);
 
             //double b = rovnice(body[1],body[2]);
 
