@@ -6,7 +6,6 @@ import cz.educanet.tranformations.logic.models.Coordinate;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.util.Set;
 
 public class Canvas extends JPanel {
